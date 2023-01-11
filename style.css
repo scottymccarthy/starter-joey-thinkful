@@ -1,0 +1,34 @@
+header {
+  background-color: #0B1C51;
+}
+
+ header nav ul li a {
+  /* The link color is white. */
+  color: #fff;
+  /* Removes the underline from the link. */
+  text-decoration: none;
+  /* Applies 20 pixels of margin to the right of each link 
+     creating a visual gap between the navigation links. */
+  margin: 0 20px 0 0;
+  font-family: Montserrat;
+}
+
+@media all and (min-width: 600px) {
+  header {
+    display: flex;
+    /* Pushes the items (the title and nav) to the far sides of the 
+       browser with space between them. */
+    justify-content: space-between;
+    /* Adds 0 pixels padding top and bottom, and 30 pixels padding 
+       left and right. */
+    padding: 0 30px;
+  }
+
+  header h1 {
+    /* Sets 14 pixels of margin above and below the `h1` and sets 
+        0 pixels of margin to the left and right. */
+    margin: 14px 0;
+    /* Removes or sets 0 pixels of padding above the `h1`. */
+    padding-top: 0;
+  }
+ 
